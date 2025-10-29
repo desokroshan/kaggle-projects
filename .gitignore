@@ -1,0 +1,6 @@
+# Ignore large data and model files
+*/data/*
+*/models/*
+__pycache__/
+.ipynb_checkpoints/
+.env
