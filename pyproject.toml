@@ -1,0 +1,5 @@
+[tool.hatch.build.targets.wheel]
+packages = ["src/common", "src/projects"]
+[tool.hatch.envs.default.scripts]
+install-deps = "pip install -r requirements.txt"
+compile = "python -m compileall ."

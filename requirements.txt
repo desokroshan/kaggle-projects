@@ -1,6 +1,3 @@
-
-**requirements.txt**
-```bash
 pandas
 numpy
 matplotlib
